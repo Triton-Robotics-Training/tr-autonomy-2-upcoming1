@@ -1,0 +1,10 @@
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/uninstall.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/your_solution_uninstall.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/AimerGuy.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/test.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/edit_cache.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/rebuild_cache.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/list_install_components.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/install.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/install/local.dir
+/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution/CMakeFiles/install/strip.dir

@@ -1,0 +1,47 @@
+[0.798s] Invoking command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/spinnyrobot': PYTHONPATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build install --record /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/install.log --single-version-externally-managed install_data
+[0.990s] running egg_info
+[0.991s] creating ../build/spinnyrobot/spinnyrobot.egg-info
+[0.991s] writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt
+[0.992s] writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt
+[0.992s] writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt
+[0.993s] writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[0.995s] reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[0.995s] writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[0.996s] running build
+[0.996s] running build_py
+[0.996s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build
+[0.996s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib
+[0.997s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot
+[0.997s] copying spinnyrobot/__init__.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot
+[0.997s] copying spinnyrobot/spinnyrobot.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot
+[0.997s] copying spinnyrobot/camerascenemanager.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot
+[0.997s] copying spinnyrobot/taskmanager.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot
+[0.997s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/models
+[0.997s] copying spinnyrobot/models/model.sdf -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/models
+[0.997s] running install
+[0.997s] running install_lib
+[0.998s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[0.998s] copying /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/__init__.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[0.998s] copying /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/spinnyrobot.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[0.998s] copying /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/camerascenemanager.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[0.999s] copying /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/taskmanager.py -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[0.999s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/models
+[0.999s] copying /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build/lib/spinnyrobot/models/model.sdf -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/models
+[0.999s] byte-compiling /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/__init__.py to __init__.cpython-310.pyc
+[0.999s] byte-compiling /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/spinnyrobot.py to spinnyrobot.cpython-310.pyc
+[1.000s] byte-compiling /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/camerascenemanager.py to camerascenemanager.cpython-310.pyc
+[1.000s] byte-compiling /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/taskmanager.py to taskmanager.cpython-310.pyc
+[1.001s] running install_data
+[1.001s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/ament_index
+[1.001s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/ament_index/resource_index
+[1.001s] creating /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/ament_index/resource_index/packages
+[1.001s] copying resource/spinnyrobot -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/ament_index/resource_index/packages
+[1.001s] copying package.xml -> /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/spinnyrobot
+[1.001s] running install_egg_info
+[1.003s] Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info
+[1.003s] running install_scripts
+[1.024s] Installing spinnyrobot script to /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/spinnyrobot
+[1.025s] writing list of installed files to '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/install.log'
+[1.057s] Invoked command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/spinnyrobot' returned '0': PYTHONPATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build install --record /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/install.log --single-version-externally-managed install_data

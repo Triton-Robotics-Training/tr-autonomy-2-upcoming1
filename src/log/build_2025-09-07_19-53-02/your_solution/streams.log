@@ -1,0 +1,11 @@
+[0.338s] Invoking command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution': CMAKE_PREFIX_PATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/install/spinnyrobot:/opt/ros/humble /usr/bin/cmake --build /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution -- -j5 -l5
+[0.549s] [ 50%] [32mBuilding CXX object CMakeFiles/AimerGuy.dir/src/AimerGuy.cpp.o[0m
+[0.596s] In file included from [01m[K/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/your_solution/src/AimerGuy.cpp:1[m[K:
+[0.596s] [01m[K/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/your_solution/src/AimerGuy.h:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.596s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.597s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.597s] compilation terminated.
+[0.606s] gmake[2]: *** [CMakeFiles/AimerGuy.dir/build.make:76: CMakeFiles/AimerGuy.dir/src/AimerGuy.cpp.o] Error 1
+[0.606s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/AimerGuy.dir/all] Error 2
+[0.606s] gmake: *** [Makefile:146: all] Error 2
+[0.618s] Invoked command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution' returned '2': CMAKE_PREFIX_PATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/install/spinnyrobot:/opt/ros/humble /usr/bin/cmake --build /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution -- -j5 -l5

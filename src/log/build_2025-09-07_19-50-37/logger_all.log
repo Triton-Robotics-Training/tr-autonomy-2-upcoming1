@@ -1,0 +1,133 @@
+[0.076s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.076s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=5, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff983cc2e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff983abe50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff983abe50>>)
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.195s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'spinnyrobot' with type 'ros.ament_python' and name 'spinnyrobot'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(your_solution) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'your_solution' with type 'ros.ament_cmake' and name 'your_solution'
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'spinnyrobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot', 'merge_install': False, 'path': '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/spinnyrobot', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'your_solution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'your_solution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution', 'merge_install': False, 'path': '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/your_solution', 'symlink_install': False, 'test_result_base': None}
+[0.272s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/spinnyrobot' with build type 'ament_python'
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('spinnyrobot', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/your_solution' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/your_solution'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/spinnyrobot'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution': CMAKE_PREFIX_PATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/install/spinnyrobot:/opt/ros/humble /usr/bin/cmake --build /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution -- -j5 -l5
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/spinnyrobot': PYTHONPATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/build install --record /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/spinnyrobot/install.log --single-version-externally-managed install_data
+[1.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(your_solution)
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution' returned '2': CMAKE_PREFIX_PATH=/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/install/spinnyrobot:/opt/ros/humble /usr/bin/cmake --build /home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/build/your_solution -- -j5 -l5
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution' for CMake module files
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/bin'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/lib/pkgconfig/your_solution.pc'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/lib/python3.10/site-packages'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/bin'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/share/your_solution/package.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/share/your_solution/package.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/share/your_solution/package.sh'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/share/your_solution/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/share/your_solution/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/your_solution/share/colcon-core/packages/your_solution)
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.155s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/local_setup.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/_local_setup_util_ps1.py'
+[1.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/setup.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/local_setup.sh'
+[1.184s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/_local_setup_util_sh.py'
+[1.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/setup.sh'
+[1.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/local_setup.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/setup.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/local_setup.zsh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/upcoming/Documents/TR-Training 2/TR-Autonomy-2/src/install/setup.zsh'
